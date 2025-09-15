@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css'>
+    <link rel="stylesheet" href="./mahan.css">
+    <title>mahan</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <ul class="item">
+                    <li class="items">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <a class="item" href="#about"> about us</a>
+                    </li>
+                    <li class="items">
+                        <i class="fa-solid fa-list"></i>
+                            <a class="item" href="#services">services</a>
+                    </li>
+                    <li class="items">
+                        <i class="fa-solid fa-phone"></i>
+                        <a  class="item" href="#call">call us</a>
+                    </li>
+                </ul>
+            </div>
+            <div id = 'searching'>
+                <form action="https://www.google.com" >
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <label for="search"> search</label>
+                    <input type="search" placeholder="searching..." >
+        
+                    <button type="submit"> GO </button>
+                    </div>
+                </form>
+        </nav>
+        </header>
+        <h1 id="welcome">welcome to my website ^^</h1>
+        <body>
+            <div>
+                <ul class="main">
+                    <div class="box">
+                        <li id="about">
+                        <p>i am a back-end developer but i know about html and css too</p>
+                        <a href="https://en.wikipedia.org/wiki/Moon">
+                        <img id="moon" src="./FullMoon2010.jpg" alt="full moon" >
+                        </a>    
+                        </li>
+                    </div>
+                    <div class="box">
+                        <li>
+                            <ol id="services">
+                                <a class="service" href="#services 1"><li>services 1</li></a>
+                                <br>
+                                <a class="service" href="#services 2"><li>services 2</li></a>
+                                <br>
+                                <a class="service" href="#services 3"><li>services 3</li></a>
+                            </ol>
+                        </li>
+                    </div>
+                    <li>
+                    <br>
+                        <div class="box">
+                            <p class="number ">my number: 09193104462
+                                <a class="call" href="#call us">Call us </a> </p>
+                        </div>
+                        <div class="box">
+                            <form id="form" action="/submit">
+                                <label for="name"> enter your name: </label>
+                                <input type="text" placeholder="your name">
+                                <br>
+                                <label for="fname"> enter your lastname: </label>
+                                <input type="text" placeholder="your last name">
+                                <br>
+                                <label for="num"> enter your number: </label>
+                                <input type="text" placeholder="your number">
+                                <br>
+                                <label for="country"> select your country: </label>
+                                <select name="country" id="country">
+                                    <option value="Iran" selected>Iran</option>
+                                    <option value="USA">USA</option>
+                                    <option value="Canada">canada</option>
+                                    <option value="Spain">Spain</option>
+                                </select>
+                                <br>
+                                <p>select your gender:</p>
+                                <input type="radio" id="male" name="sex">
+                                <label for="male">male</label>
+                                <input type="radio" id="female" name="sex">
+                                <label for="female">female</label>
+                                <input type="radio" id="else" name="sex">
+                                <label for="else">else</label>
+                                <br>
+                                <label for="pass">enter your password:</label>
+                                <input type="password" id="password">
+                            </form>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </body>
+    <footer>
+        <div class="message">
+            <p>send a message to me :</p>
+            <p> our email: <span>haniyesheikh1382@gmail.com</span></p>
+            <label for="email"> your Email:</label>
+            <input type="email" placeholder=".....@gmail.com">
+        </div> 
+        <br>
+        <br>
+        <div class="message">
+            <label for="message">enter your message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+            <button type="submit">send</button>
+        </div>
+        <p class="message">contact me by :</p>
+        <br>
+            <div class="icons">
+                <div class="icon icon1">
+                        <i class="fab fa-telegram"></i>
+                            <a class="text text1" href="#telegram">Telegram</a>
+                </div>
+                <div class="icon icon2">
+                    <i class="fab fa-instagram"></i>
+                    <a href="#instagram">
+                        <p class="text text2">Instagram</p></a>
+                </div>
+                <div class="icon icon3">
+                    <i class="fab fa-twitter"></i>
+                        <a class="text text3" href="#twitter">Twitter</a>
+                </div>
+            </div>
+    </footer>
+</body>
+</html>

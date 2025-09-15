@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    background-color: pink;
+    padding: 10px 20px;
+    overflow: hidden;
+    align-self: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+}
+
+.log{
+    float: right;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
